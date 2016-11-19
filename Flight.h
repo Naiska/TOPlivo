@@ -1,6 +1,6 @@
 #ifndef FLIGHT_H_INCLUDED
 #define FLIGHT_H_INCLUDED
-class Flight
+class Flight:DisplayObj
 {
     private:
         int LEng;

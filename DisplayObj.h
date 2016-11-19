@@ -5,6 +5,6 @@ class DisplayObj
     private:
 
     public:
-        void Show();
+        virtual void Show();
 };
 #endif // DISPLAYOBJ_H_INCLUDED

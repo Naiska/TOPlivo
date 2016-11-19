@@ -1,7 +1,7 @@
 #ifndef BUTTON_H_INCLUDED
 #define BUTTON_H_INCLUDED
 
-class Button
+class Button:DisplayObj
 {
     private:
         bool IsOn;

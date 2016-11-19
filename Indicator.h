@@ -1,6 +1,6 @@
 #ifndef INDICATOR_H_INCLUDED
 #define INDICATOR_H_INCLUDED
-class Indicator
+class Indicator:DisplayObj
 {
     private:
         int value;
