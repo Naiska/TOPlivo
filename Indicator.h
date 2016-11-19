@@ -1,17 +1,18 @@
 #ifndef INDICATOR_H_INCLUDED
 #define INDICATOR_H_INCLUDED
+class Indicator
+{
+    private:
+        int value;
+        int MaxVal;
+        float angle;
 
-private:
-    int value;
-    int MaxVal;
-    float angle;
+        int scale;
+    public:
+        int GetVal();
+        float GetAngle();
 
-    int scale;
-public:
-    int GetVal();
-    float GetAngle();
-
-    void SetVal(int);
-    void SetMax(int);
-
+        void SetVal(int);
+        void SetMax(int);
+};
 #endif // INDICATOR_H_INCLUDED

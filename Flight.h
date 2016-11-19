@@ -1,19 +1,20 @@
 #ifndef FLIGHT_H_INCLUDED
 #define FLIGHT_H_INCLUDED
+class Flight
+{
+    private:
+        int LEng;
+        int REng;
 
-private:
-    int LEng;
-    int REng;
+        float XAngle;
+        float YAngle;
+    public:
+        int GetLeft();
+        int GetRight();
 
-    float XAngle;
-    float YAngle;
-public:
-    int GetLeft();
-    int GetRight();
-
-    void SetXAngle();
-    float GetXAngle();
-    void SetYAngle();
-    float GetYAngle();
-
+        void SetXAngle();
+        float GetXAngle();
+        void SetYAngle();
+        float GetYAngle();
+};
 #endif // FLIGHT_H_INCLUDED
